@@ -1,6 +1,12 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "esports-dev": "cd packages/nextjs-esports-blog && npm run dev"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   }

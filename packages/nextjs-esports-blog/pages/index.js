@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { c2f, f2c, average } from 'temp-utils';
 
 export default function Home() {
   return (
