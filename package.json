@@ -5,7 +5,8 @@
     "packages/**"
   ],
   "scripts": {
-    "esports-dev": "cd packages/nextjs-esports-blog && npm run dev"
+    "esports-dev": "cd packages/nextjs-esports-blog && npm run dev",
+    "sports-dev": "cd packages/nextjs-sports-blog && npm run dev"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
